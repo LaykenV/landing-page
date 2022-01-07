@@ -1,0 +1,152 @@
+body {
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: auto;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    color: white;
+    font-size: 12px;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.one {
+    background-color: #1f2937;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    color: white;
+}
+
+.oneleft {
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.oneleftheader {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.oneleftbutton {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: #1f2937;
+    color: white;
+    border-radius: 12%;
+    padding: 8px 24px;
+    
+
+}
+
+.oneright {
+    height: 150px;
+    width: 350px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.twoheader {
+    font-weight: bold;
+    font-size: large;
+}
+
+.twobody {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.twobox {
+    height: 40px;
+    width: 40px;
+    border: solid blue 4px;
+}
+
+.twotext {
+    text-align: center;
+}
+
+.three {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thor {
+    font-weight: bold;
+    text-align: right;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+
+}
+
+.blueboxleft {
+    flex-wrap: nowrap;
+}
+
+.fourtexttop {
+    font-weight: bold;
+}
+
+.fourbutton {
+    border: solid white 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
