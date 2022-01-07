@@ -1,10 +1,9 @@
 body {
     background-color: white;
-    
+    height: auto;
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: auto;
 }
 
 .header {
@@ -17,7 +16,7 @@ body {
 }
 
 .header-logo {
-    font-weight: bold;
+    font-weight: extra-bold;
     font-size: 24px;
 }
 
@@ -42,13 +41,19 @@ body {
 }
 
 .oneleftheader {
-    font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.oneleftbody {
+    font-size: 18px;
     margin-bottom: 10px;
+    color: #e5e7eb;
 }
 
 .oneleftbutton {
-    background-color: blue;
+    background-color: #3882f6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,8 +86,10 @@ body {
 }
 
 .twoheader {
-    font-weight: bold;
+    font-weight: extra-bold;
     font-size: large;
+    margin-bottom: 36px;
+    color: #1f2937
 }
 
 .twobody {
@@ -90,41 +97,75 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 10px;
+    
+}
+
+.two1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 140px;
+    gap: 10px
 }
 
 .twobox {
-    height: 40px;
-    width: 40px;
-    border: solid blue 4px;
+    height: 120px;
+    width: 120px;
+    border: solid #3882f6 2px;
+    border-radius: 12%;
 }
 
 .twotext {
     text-align: center;
+    flex-wrap: wrap;
+    font-size: small;
 }
 
 .three {
-    background-color: lightgray;
+    background-color:  #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.threebody{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 600px;
+    height: 300px;
+    font-size: 24px;
 }
 
+
 .thor {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
     font-weight: bold;
     text-align: right;
+    margin-top: -20px;
 }
 
 .four {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 72px;
 }
 
 .bluebox {
     display: flex;
     justify-content: space-around;
     padding: 12px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 700px;
+    align-items: center;
 
 }
 
@@ -134,19 +175,31 @@ body {
 
 .fourtexttop {
     font-weight: bold;
+    color: white;
+}
+
+.fourtextbottom {
+    font-size: small;
+    color: white;
 }
 
 .fourbutton {
-    border: solid white 4px;
+    border: solid white 2px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+    background-color: #3882f6;
+    width: 100px;
 }
 
 .footer {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    color: white;
+    padding: 2px;
+    font-size: small;
 }
 
